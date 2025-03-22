@@ -1,0 +1,194 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f8bbd0, #e1bee7);  /* Pink to lavender gradient */
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background: #512da8;  /* Deep purple */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 44px;
+    letter-spacing: 1.5px;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Image Styling */
+.ott-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.ott-img:hover {
+    transform: scale(1.05);  /* Zoom effect on hover */
+}
+
+/* Text Box Styling */
+.text-box {
+    background: #ffffff;  
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    margin-bottom: 40px;
+}
+
+.text-box:hover {
+    transform: translateY(-8px);
+}
+
+.text-box p {
+    font-size: 20px;
+    color: #444;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Trends Box */
+.trends-box {
+    background: #fbe9e7;  /* Light peach */
+    border-left: 8px solid #ff7043;  
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    margin: 40px 0;
+}
+
+.trends-box:hover {
+    transform: translateY(-8px);
+}
+
+.trends-box h2 {
+    font-size: 28px;
+    color: #d84315;
+    margin-bottom: 20px;
+}
+
+.trends-box ul {
+    list-style: none;
+}
+
+.trends-box li {
+    font-size: 18px;
+    color: #555;
+    margin: 12px 0;
+}
+
+/* Review Box */
+.review-box {
+    background: #ede7f6;  /* Light purple */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    margin: 40px 0;
+    transition: transform 0.3s;
+}
+
+.review-box:hover {
+    transform: translateY(-8px);
+}
+
+.review-box h3 {
+    font-size: 26px;
+    color: #512da8;
+    margin-bottom: 20px;
+}
+
+.review-box label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.review-box select, 
+.review-box textarea, 
+.review-box button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.review-box button {
+    background: #512da8;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.review-box button:hover {
+    background: #311b92;
+}
+
+/* Quote Box */
+.quote-box {
+    background: #f0f4c3;  
+    border-left: 8px solid #388e3c;  
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+}
+
+.quote-box blockquote {
+    font-style: italic;
+    font-size: 24px;
+    color: #388e3c;
+}
+
+.quote-box span {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+    text-align: right;
+}
+
+/* Footer */
+footer {
+    background: #512da8;  
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #ffcc80;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff9800;
+}
